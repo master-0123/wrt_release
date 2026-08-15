@@ -36,6 +36,9 @@ on:
         description: Remove default config fragments, comma separated
         default: ""
 
+permissions:
+  actions: write
+
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
